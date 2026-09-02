@@ -7,3 +7,5 @@ if subtotal >= 50000:
     descuento = subtotal * 0.10
     total = subtotal - descuento
     print(f"hola,{nombre}, usted tiene un descuento de ${descuento} y el total a pagar es ${total}")
+else:
+    print(f"hola,{nombre}, usted no tiene descuento y el total a pagar es ${subtotal}")      
